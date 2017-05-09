@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: AutoTest.OurFirstProject.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.066 sec - in AutoTest.OurFirstProject.RunnerClass

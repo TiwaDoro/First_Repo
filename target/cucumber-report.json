@@ -1,0 +1,492 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login   #Background is a test that has to run before the main scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13637316718,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344441621,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1693593557,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Click trade your jet tab",
+        "description": "",
+        "id": "as-a-user;click-trade-your-jet-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 46064,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.closesession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 492612075,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the trade your jet tab",
+            "match": {
+              "location": "Trade_yourjet.i_click_the_trade_your_jet_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24713388,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be on trade your jet page",
+            "match": {
+              "location": "NavigationPaneStep.i_should_be_on_trade_your_jet_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@testcomplete"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login   #Background is a test that has to run before the main scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 450812421,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102450006,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510834102,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Click book your jet",
+        "description": "",
+        "id": "as-a-user;click-book-your-jet",
+        "after": [
+          {
+            "result": {
+              "duration": 18879,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.closesession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567303884,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the book your jet tab",
+            "match": {
+              "location": "NavigationPaneStep.i_click_the_book_your_jet_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30013106,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be on book your jet page",
+            "match": {
+              "location": "NavigationPaneStep.i_should_be_on_book_your_jet_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@testcomplete"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login   #Background is a test that has to run before the main scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 419760969,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118142244,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 471973910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Click just trade",
+        "description": "",
+        "id": "as-a-user;click-just-trade",
+        "after": [
+          {
+            "result": {
+              "duration": 30584,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.closesession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 431600001,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the just trade tab",
+            "match": {
+              "location": "NavigationPaneStep.i_click_the_just_trade_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26726646,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should be on just trade page",
+            "match": {
+              "location": "NavigationPaneStep.i_should_be_on_just_trade_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@testcomplete"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login   #Background is a test that has to run before the main scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 411300526,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106424039,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 479672018,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Click about us",
+        "description": "",
+        "id": "as-a-user;click-about-us",
+        "after": [
+          {
+            "result": {
+              "duration": 29451,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.closesession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 465937534,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click the about us tab",
+            "match": {
+              "location": "NavigationPaneStep.i_click_the_about_us_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33596344,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should be on about us page",
+            "match": {
+              "location": "NavigationPaneStep.i_should_be_on_about_us_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@testcomplete"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login   #Background is a test that has to run before the main scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 445400562,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100627425,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 445792113,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Click contact us",
+        "description": "",
+        "id": "as-a-user;click-contact-us",
+        "after": [
+          {
+            "result": {
+              "duration": 21145,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.closesession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 465780083,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click the contact us tab",
+            "match": {
+              "location": "NavigationPaneStep.i_click_the_contact_us_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29906251,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should be on contact us page",
+            "match": {
+              "location": "NavigationPaneStep.i_should_be_on_contact_us_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@testcomplete"
+          }
+        ]
+      }
+    ],
+    "name": "As a user",
+    "description": "I want to be able to click \r\non all the Navigation Pane",
+    "id": "as-a-user",
+    "keyword": "Feature",
+    "uri": "NavigationPane.feature"
+  }
+]

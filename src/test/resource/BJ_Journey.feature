@@ -19,3 +19,4 @@ When I click the relevant check box
 And I select no radio button 
 And I click on submit button
 Then a successfull confirmation message is displayed
+And I click other things
